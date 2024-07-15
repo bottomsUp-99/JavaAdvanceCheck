@@ -1,8 +1,7 @@
-package lamda;
+package lamda.day01;
 
 import java.util.ArrayList;
 import java.util.List;
-import lamda.LamdaEx02.ArrayOperation;
 
 public class LamdaEx03 {
 //   *  1.  정수 리스트를 받아 정수를 반환하는 단일 추상 메서드 getMax()를 사용하여 FindMax 인터페이스를 생성하세요
