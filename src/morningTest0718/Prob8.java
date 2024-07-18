@@ -1,8 +1,11 @@
 package morningTest0718;
 
+import java.util.function.Supplier;
+
 public class Prob8 {
 
   public static void main(String[] args) {
-    System.out.println("잘 모르겠어요ㅜㅜ");
+    Supplier<String> sp = String::new;
+    String str = sp.get();
   }
 }
